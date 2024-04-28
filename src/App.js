@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
        <div className="header">
-      <a href="https://gangforcode.com/" target="_blank" rel="noreferrer noopener" class="button-style">
+      <a href="https://gangforcode.com/to-do-app-with-react" class="button-style">
           Back to Tutorial
         </a>
       </div>
