@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TodoList from './TodoList';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       </div>
     <h1>My ToDo Application</h1>
     <TodoList/>
+    <Analytics />
+
     </div>
   );
 }
